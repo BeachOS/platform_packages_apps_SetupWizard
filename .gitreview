@@ -1,0 +1,5 @@
+[gerrit]
+host=review.beachos.org
+port=29418
+project=BeachOS/platform_packages_apps_SetupWizard
+defaultbranch=android13

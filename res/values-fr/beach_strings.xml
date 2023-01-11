@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="microg_description">Ceci permet à des applications telles que <b>Google Maps, YouTube et les services de partage de trajet </b> de fonctionner sur BeachOS. Désactivez ceci si vous ne prévoyez pas d’exécuter des applications qui nécessitent les services Google. Vous ne pourrez pas l’activer plus tard.</string>
+    <string name="microg_title">Services Google</string>
+    <string name="waiting_for_apps">Veuillez patienter pendant que nous finissons de configurer votre appareil.</string>
+    <string name="install_apps_select_all">Toutes les applis suivantes</string>
+    <string name="install_apps_subtitle"><b>Montrer des applications supplémentaires. </b> Vous pourrez également les installer plus tard.</string>
+    <string name="install_apps_title">Applis supplémentaires</string>
+    <string name="euicc_summary">Vous pouvez aussi ajouter une eSIM a votre appareil.</string>
+    <string name="setup_euicc">Installation eSIM</string>
+    <string name="reboot">Redémarrer</string>
+    <string name="bootloader_warning_title">Avertissement de verrouillage du chargeur de démarrage</string>
+    <string name="bootloader_warning_summary">Le chargeur de démarrage de cet appareil est actuellement déverrouillé. Veuillez verrouiller le bootloader depuis un ordinateur. Visitez <a href="https://beachos.org/lock">beachos.org/lock</a> pour plus d\'informations.</string>
+    <string name="sim_missing_full_description"><xliff:g id="sim_missing_summary">%1$s</xliff:g>
+\n<xliff:g id="euicc_summary">%2$s</xliff:g></string>
+</resources>

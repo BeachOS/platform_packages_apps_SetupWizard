@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The Beach Institute
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Managed profile -->
+    <string name="lineage_wizard_script_managed_profile_uri" translatable="false">android.resource://org.lineageos.setupwizard/raw/lineage_wizard_script_managed_profile</string>
+
+    <!-- App install -->
+    <string name="beach_fdroid_repo_location" translatable="false">/product/fdroid/repo</string>
+    <string name="install_apps_title">Additional apps</string>
+    <string name="install_apps_subtitle"><b>Review additional apps.</b> You can install them later as well.</string>
+    <string name="install_apps_select_all">All of the following apps</string>
+    <string name="waiting_for_apps">Please wait while we finish setting up your device.</string>
+
+    <!-- MicroG setup -->
+    <string name="microg_title">Google Services</string>
+    <string name="microg_description2">microG is a open source replacement for <b>Google Play Services</b> (and related software), but it only includes the useful parts. Unlike Play Services, microG does not have any advertising or location tracking, for example.</string>
+    <string name="microg_switch_label2">Google Services Compatibility</string>
+    <string name="microg_description">This allows apps such as <b>Google Maps, Youtube and ride sharing services</b> to run on BeachOS. Disable this if you don\'t plan on running apps that require Google services. You will not be able to enable it later.</string>
+    <string name="microg_defaults_switch_label">Push notification support</string>
+    <string name="microg_defaults_summary">Allow apps to register for push notifications with Google. This registers your device to Google services, without any device-specific unique identifiers. This can be enabled later from microG Settings, however any apps setup earlier will need to be re-installed to work properly.</string>
+
+    <!-- Toast show on skipping SetupWizard -->
+    <string name="skip_setupwizard" translatable="false">Skipping setup wizard</string>
+
+    <!-- Welcome: long press Brand Logo
+         No translations because this is shown before locale selection -->
+    <string name="bootloader_unlocked" translatable="false">Bootloader: Unlocked</string>
+    <string name="bootloader_locked" translatable="false">Bootloader: Locked</string>
+    <string name="oemunlock_allowed" translatable="false">OEM unlocking: Allowed</string>
+    <string name="oemunlock_na" translatable="false">OEM unlocking: Not Applicable</string>
+    <string name="oemunlock_notallowed" translatable="false">OEM unlocking: Not Allowed</string>
+    <string name="factory_reset" translatable="false">Factory reset and power off</string>
+
+    <!-- eSIM setup -->
+    <string name="euicc_summary">You can also add an eSIM to your device.</string>
+    <string name="sim_missing_full_description"><xliff:g id="sim_missing_summary">%1$s</xliff:g>\n<xliff:g id="euicc_summary">%2$s</xliff:g></string>
+    <string name="setup_euicc">Setup eSIM</string>
+
+    <!-- Bootloader Lock Status -->
+    <string name="bootloader_warning_title">Bootloader lock warning</string>
+    <string name="bootloader_warning_summary">This device\'s bootloader is currently unlocked. Please lock the bootloader from a computer. Visit <a href="https://beachos.org/lock">beachos.org/lock</a> for more info.</string>
+    <string name="reboot">Reboot</string>
+</resources>
